@@ -15,7 +15,7 @@ def full_name_and_print(fname: str, mname: str, lname: str) -> None:
 # Modified function to satisfy Single Responsibility Principle
 def full_name(fname: str, mname: str, lname: str) -> None:
     """
-    Concatenates the names together and prints them
+    Concatenates the names together and returns the full name
 
     Arguments:
         fname (str) -- first name
